@@ -6,7 +6,6 @@ ARGS=1
 emc=$1
 
 # Checking arguments
-
 if [ $# -ne "$ARGS" ]
 then
     echo "What do you want to be converted?"
@@ -16,12 +15,10 @@ fi
 
 
 # Getting tree and volume values
-
 tree=`cat $1 | egrep -o "/.*" | egrep -o "^\S*"`
 vol=`cat $1 | egrep -o "/vol."`
 
 # Substituting
-
 cat $1 | grep '#' | tr -d "\|" | while read LINE; do
     num=`echo $LINE | egrep -o "#[0-9]+" | tr -d "#"`
     name=`ypcat -k passwd | grep :$num:| head -c 8`
