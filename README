@@ -1,0 +1,7 @@
+test upload for GIT system learning
+
+This script was created to convert output of "quota report" command from EMC storage systems 
+so that it'd look like output of the same command on NetApp ones, running DataONTAP 8.0.
+
+Created in September, 2011.
+Sasha Buyanov.
