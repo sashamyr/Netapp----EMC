@@ -1,4 +1,5 @@
 This script converts an output of "quota report" command from EMC Clariion storage systems so that it'd look like output of the same command on NetApp storage systems running DataONTAP 8.0 operating system.
+This script can substitute aliases of employees to their names, taking information from NIS database.
 
 This script was created at Intel Coproration for internal use, hence all copyrights belong to the abovementioned corporation.
 
