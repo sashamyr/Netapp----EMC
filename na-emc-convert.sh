@@ -3,7 +3,6 @@
 #+to NetApp systems.
 
 ARGS=1
-emc=$1
 
 # Checking arguments
 if [ $# -ne "$ARGS" ]
